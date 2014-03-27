@@ -44,6 +44,7 @@ app.post('/quote', function(req, res) {
   };
 
   quotes.push(newQuote);
+  console.log("Added!");
   res.send(newQuote);
 });
 
